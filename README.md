@@ -39,9 +39,10 @@
 
 ## What This Does
 
-<!-- Your community, and what your classifier sorts posts into. Three or four
-     sentences. -->
-
+TakeMeter sorts public posts from r/nba into three labels (analysis,
+hot_take, reaction) so a reader can tell argued posts from unsupported claims
+and from gut reactions. I labelled about 150 posts by hand and trained a
+small model on them.
 
 
 ---
@@ -54,9 +55,10 @@
      The decision rule is worth a point on its own and it's the thing most
      people leave out. Every taxonomy has a hardest boundary. Name yours. -->
 
-### `label_one`
+### `analysis`
 
-**Definition:**
+**Definition:** Makes an argument backed by a specific, checkable fact such
+as a stat, a date or a quote.
 
 **Example 1:**
 >
@@ -64,9 +66,20 @@
 **Example 2:**
 >
 
-### `label_two`
+### `hot_take`
 
-**Definition:**
+**Definition:** A confident claim with no support offered.
+
+**Example 1:**
+>
+
+**Example 2:**
+>
+
+### `reaction`
+
+**Definition:** An immediate feeling about something that just happened,
+with no argument.
 
 **Example 1:**
 >
@@ -76,11 +89,11 @@
 
 ### The hardest boundary
 
-**Which two labels:**
+**Which two labels:** `analysis` vs `hot_take`
 
-**The decision rule I used every time:**
-<!-- e.g. "If the post names a specific checkable fact, it's `analysis`, even
-     if the tone is heated." -->
+**The decision rule I used every time:** If the post names a specific
+checkable fact, it is `analysis`, even if the tone is heated. If it only
+asserts, it is `hot_take`.
 
 
 

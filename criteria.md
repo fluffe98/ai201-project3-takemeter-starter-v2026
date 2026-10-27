@@ -51,62 +51,62 @@ whether you hit them:
 
 ---
 
-## 1.
+## 1. Overall accuracy
 
-<!-- Your criterion. It must name a number. -->
+Accuracy on the held-out test set is at least 0.60 on all three seeds.
 
-
-
-**Why this target:**
-
-
-
----
-
-## 2.
-
-<!-- Your criterion. -->
-
-
-
-**Why this target:**
-
+**Why this target:** With three labels, guessing gets about 33%, so 0.60 is
+nearly double that. My test split will be about 22 posts, so one wrong post
+moves accuracy by about 4.5 points, and the target has to hold on every seed.
+That is why I did not pick a higher number.
 
 
 ---
 
-## 3.
+## 2. Per-label performance
 
-<!-- Your criterion. -->
+Every label has an F1 of at least 0.50 on the held-out test set, on all
+three seeds.
 
-
-
-**Why this target:**
-
-
-
----
-
-## 4.
-
-<!-- Your criterion. -->
-
-
-
-**Why this target:**
-
+**Why this target:** My smallest label will have only about 6 to 8 test
+posts, so its F1 will swing a lot between seeds. I set this below the
+accuracy target because of that.
 
 
 ---
 
-## 5.
+## 3. Balance
 
-<!-- Your criterion. -->
+No label is more than 55% of the rows in labels.csv, and each label has at
+least 30 rows.
+
+**Why this target:** The project cap is 70%, but at that level a model can
+score well by guessing the biggest label. With 150 rows, 30 per label gives
+about 4 to 5 test posts, which is the least I can measure anything on.
 
 
+---
 
-**Why this target:**
+## 4. Agreement with staff
 
+On the 30-post staff set in unit 6, my labels agree with staff on at least
+21 of 30 (70%).
+
+**Why this target:** I am labelling under the staff taxonomy, not my own,
+and some of the 30 were picked because they are ambiguous. 70% would show
+that I applied written rules consistently without expecting perfection.
+
+
+---
+
+## 5. Better than the baseline
+
+The trained model's macro F1 is at least 0.05 higher than the baseline's on
+the same test posts.
+
+**Why this target:** The point of fine-tuning on my data is to beat a model
+that has seen none of it. Five points is a small margin that still shows the
+training added something. With a test set this small it could easily miss.
 
 
 ---
