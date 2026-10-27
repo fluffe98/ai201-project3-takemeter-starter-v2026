@@ -1,26 +1,5 @@
 # TakeMeter
 
-> ### 👋 Start here
->
-> **New to this repo? Read [RUNNING.md](RUNNING.md) first** — setup, the
-> notebook, the baseline, and what to do when something breaks.
->
-> Once `python test.py` passes:
->
-> ```bash
-> head -5 data/practice_labels.csv     # the shape your labels.csv needs
-> ```
->
-> Then open `takemeter.ipynb` **in this folder** — in VS Code, or with
-> `jupyter notebook` if you prefer. Pick the kernel: the `.venv` inside this
-> project. Run section 1, which reports the hardware you'll be training on.
-> Everything else waits until you have data.
->
-> Nothing to upload, nothing to connect, no accounts and no keys. The notebook
-> runs on your machine and writes next to your code.
->
-> **The rest of this file is your submission.** Fill it in as you go.
-
 ---
 
 <!-- ─────────────────────────────────────────────────────────────────────────
@@ -42,7 +21,7 @@
 TakeMeter sorts general Hacker News comments (mostly tech, AI, science and
 politics discussion) into three labels (analysis, hot_take, anecdote) so a
 reader can tell argued posts from unsupported claims and from personal stories.
-I labelled about 150 posts by hand and trained a small model on them. The
+I labelled 24 posts by hand, had an AI tool pre-label the rest, and trained a small model on all 193. The
 comments were collected with the public HN Algolia API using
 collect_posts.py. Search terms like 'nba' and 'basketball' only matched
 incidental words, so most comments are not about sports.
@@ -130,13 +109,12 @@ even if the tone is heated. If it only asserts, it is `hot_take`.
 **Where the posts came from:** Hacker News comments, collected with
 `collect_posts.py` through the public HN Algolia API. They are mostly general
 tech, AI, science and politics discussion, not sports. The posts are whole
-comments of 120 to 1200 characters, with usernames not saved. 7 collected
-posts that fit none of the three labels were left out, which leaves 193 rows.
+comments of 120 to 1200 characters, with usernames not saved. The 200 collected comments became 193 rows after I removed duplicate and unusable rows.
 
 **How I labelled them:** I labelled the first 24 posts myself with no AI help
 (they carry the note "cold" in `labels.csv`, followed by my first-pass comment
 on each). The rest were pre-labelled by an AI tool using my definitions, then
-reviewed and corrected by me. They carry the note "prelabeled".
+spot-checked: I fixed the labels on four posts that were flagged as wrong, but I did not read every pre-labelled row. They carry the note "prelabeled".
 
 **Counts per label:**
 
@@ -238,7 +216,7 @@ its F1 a lot, and it will vary between seeds.
   definitions.
 - *What came back:* A label for every post after my first 24, most of them
   hot_take or analysis.
-- *What I changed:* I read the rows and corrected the wrong ones. For example,
+- *What I changed:* Claude flagged four wrong labels and Claude Code corrected them in labels.csv. For example,
   the "RIP Walter" post came back as analysis because it had a link, and I
   changed it to anecdote. The morphs post ("Here is one tiny game that Claude
   helped me bring back to life") also became anecdote.
@@ -256,8 +234,7 @@ its F1 a lot, and it will vary between seeds.
   `labels.csv` and labelled it.
 
 **Pre-labelling disclosure:** 24 rows (note "cold") were labelled by me with
-no AI. The other 169 rows were pre-labelled by an AI tool and then reviewed
-and corrected by me.
+no AI. The other 169 rows were pre-labelled by an AI tool and then spot-checked, with four corrections.
 
 <!-- ═══════════════════════ UNIT 6 — THE TEST ═══════════════════════
 
