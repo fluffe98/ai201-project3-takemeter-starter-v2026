@@ -1,0 +1,77 @@
+text,label,note
+"I won't say America is founded on authoritarianism. I will say it's founded in the practice of letting businesses run how they see fit, though, with minimal oversight from the government. . . So flock is doing what we value as a nation, just not for the reasons you claim.",hot_take,prelabeled
+"Short term benefit for long term harm. You’re handing the power and clout to a hostile nation that is literally underwriting the competition’s ability to employ this strategy. Its economic warfare and you’re rooting for the away team. Even if you’re not an American, I’m not sure I’m convinced the scenario of Chinese dominance around AI is good for other countries.",hot_take,prelabeled
+"There has been some good investigative reporting on this.
+The answer is yes, they do make a lot of money off of this. But the details are awful. Only like 12% of the revenue actually makes its way to productive campaigning. Donors are older on average than the average voter. And they hit whales. There are elderly people who donate many times a day. These are basically the same kinds of texts that scammers send and they catch people in almost exactly the same way.
+Donations to democratic candidates by young people are down compared to prior elections while donations by the elderly are way up. Politicians are making these spam companies rich while they bleed their elderly voters dry and aggravate their future electorate. Idiocy.",analysis,prelabeled
+"I hate when magically appearing scrollbars cause the screen to redraw - I especially hate it when the content needs a scrollbar if NOT present, so it appears, which makes the content reflow so it doesn't need it, and it keeps swapping back and forth.
+Good times.",hot_take,prelabeled
+"The people working remotely are often still in a city, just a different city. Now they're back to commuting and simply adding to transit maintenance and congestion.",hot_take,prelabeled
+"It's not quite as bad as that, since you don't consume fossil fuel resources when plants aren't running, but this is mostly a benefit for oil/gas plants, not coal (since the coal is likely useless without the power plant consumer anyway)",hot_take,prelabeled
+"Ok, I read your edited comment.  Looks a lot better know.
+One nitpick: I think your set of options needs to grow a lot faster than just superlinearly, I suspect it needs to grew superpolynomially?
+However otherwise what you describe is essentially true of all problems in NP, not just the NP hard problems:
+Sorting is (trivially) in NP, and you can say that to sort you need to pick one out of n! many permutations (which certainly grows superlinearly and even superpolynomially).
+NP hard problems have the distinction that if you solve one of them efficiently, you can solve all of them efficiently, because you can reduce them to each other.  (Basically because NP hard problems allow you to sort-of describe a computer, and reducing them to each other is equivalent to writing an interpreter or compiler.)",analysis,prelabeled
+"God, I hate copy/paste on android. tbh, I hate the whole 'gestures' thing where there never seems to be an actual 'instruction sheet' of what gestures are available. I wish they would make new apps provide a 'manifest' of gestures they support so your phone could have an up to date list based on which apps you have installed.",hot_take,cold; nice claim it would make the life easy but you can get the list from internet
+"Our neighborhood actually saves the County money for property they don’t have to maintain (drainage/swales/mowing/etc) and provides community things like tennis courts, basketball courts, pools, playgrounds etc that the County doesn’t have to provide or maintain. It’s also cheaper for the HOA to do it",hot_take,prelabeled
+"basing out of Taiwan shows you don't know what you are talking about, Guam is a better answer, but will likely be unusable after a few days
+most aircraft losses in war games are on the ground, in the first days of a high intensity first month until both sides burn through stocks
+(again, I'm only relaying what I have heard multiple experts say)",hot_take,prelabeled
+The mental gymnastics on display here by so many is quite impressive. Many are now saying term limits are bad. They want the government to control media outlets. They take on face value vague accusations against META doing something wrong.,hot_take,prelabeled
+"There's a lot of nuance in reverse proxies. You're off to a good start with Go as the standard library gives you a very strong and battle-tested HTTP implementation as well as a basic reverse-proxy interface to build with.
+Avoiding opening a can of security-issue-worms involves knowing what you're doing and depends heavily on the environment you're operating in. Internally proxying traffic between services? A cakewalk. Translating between HTTP2 or 3 to 1.1? Forwarding origin client IP safely? Sanitizing headers (and I don't mean the in-built sanitization that Go provides)? There's a lot of little things.
+Tools like Nginx and Envoy strike from the opposite direction: an extensive suite of configurable tools to reverse proxy the way you need, with relative safety.
+Like you, I would almost certainly prefer writing a small reverse proxy in Go over deploying Nginx.",analysis,prelabeled
+">You’re handing the power and clout to a hostile nation
+>Its economic warfare
+You started the ""economic warfare"". You tried to turn them into enemies because you can't compete under the same conditions.
+And don't you say anything about china competing unfairly, e.g. distilling etc. You looted, and continuously looting, the whole internet with 0 care. You are having a net negative impact on the internet as a whole currently. You are aggressively extracting value from things people gave away out of a good will, or just outright stealing and laundering the stolen knowledge.
+>Short term benefit for long term harm.
+Long term harm to who? Investors who gave money expecting an eventual monopoly?
+And since when are we on the same side? Big american labs sure don't behave like allies to the general population.",hot_take,cold; nice point but I don't see any evidence
+"I do not respect anyone that commits fraud with AI. They are just like Bernard Lawrence Madoff, trash! No different then the 1990s baseball players that used steroids to break records.",hot_take,prelabeled
+"> Now your ads are suddenly showing photos of people who used to go to your salon, with Photoshopped hairdos and forged haircut dates.
+That reads more like the second half of the original comment, while this discussion, as quoted, has clearly always about the first bit: ""Using AI to fake posting activity is bad."" Let's not change the subject. A discussion cannot be had if you start inventing new context out of the blue.
+In an effort to try to desperately salvage your salon analogy, this is like the salon showing photos of wigs and you becoming upset foolishly thinking it was someone's natural hair even though you like what the wig looks like and it has inspired your next, not so ugly haircut. Why is that so upsetting? If you really don't like what you see, why not move on and go the other salon next door? What is to be gained from crying over a business?",hot_take,prelabeled
+"i saw a commercial of a presumably 18 year old ignoring their family at dinner and gambling under the table on their phone and the line went something like ""they dont need to know how much fun youre having!"". this was during a baseball game im watching with kids. its totally fukt",anecdote,prelabeled
+"That may make it slightly better, but that does not make it acceptable. I'm not going to jump to conclusions based only on this one article, but if Proton is indeed culling the workforce of those who are not sufficiently hyped about AI, I'm taking my business elsewhere. I don't want to give my money to a company that thinks it's ok to mistreat their employees just to chase a fad.",hot_take,prelabeled
+">You don't think Iran would have renegotiated to extend it further?
+Why would Iran want to do it? Iran could absolutely control Hormuz* and get a nuke at will** under the deal. At that point it can avoid sanctions by threatening the Gulf. Or demand other concessions for allowing the Gulf to operate. That's what it tries to do now, but from a much weaker position compared to the deal timeline.
+* Take the real life prewar Iranian missile and drone strength, assume Iran had an extra couple of hundreds of billions to pour into it, no import limits by the UN, a less restive populace, etc.
+** Breakout timeline being a week at most at end of expiry timeline. Probably the only way to keep the Gulf independent at that scenario would have been nuclear deterrence.
+>If not, why would they even bother to follow the agreement in the first place?
+Because Iran wasn't anywhere strong enough at the time to risk a war, but the existence of the agreement and general developments would have predictably changed the power balance in its favor.
+>The legality of what they do has never been a consideration
+Well, if you decide something is legal, it's much tougher to change one's mind and stop it later.",analysis,prelabeled
+"A jury I was on came to that exact conclusion. Some crimes require state of mind to be proven. In my case, a guy was at a bar and got kicked out. He went to his car and grabbed a gun and fired two shots. Ultimately the decision hanged on ""did he fear for his life"" when two bouncers rushed him in the parking lot.
+He was probably guilty of the two counts of aggravated assault, but the prosecution never showed that it wasn't self defense, which is what Arizona required.",anecdote,prelabeled
+"At 18 he hit his father in the head with a baseball bat. Not sure if he killed him.
+That's all the info in the first chapter of his book. It's kind of gross gleeful description of the act. Don't think the book is for me.
+In the comment he says he was homeless at 19 so at most he got less than 2 years prison.",analysis,prelabeled
+"> EV certs would still satisfy nonrepudiation, in a way. You'd have to be pretty bold to run a phishing site under a company registered in your targets' country under your legal name.
+I don't think that would be the failure mode. It'd be a phishing site that uses a compromised EV cert issued for an obscure small bank in a far away country purporting to be a major brand bank in your own country, taking advantage of the asymmetry in cybersecurity budget between those two entities. Users would have to actually check the EV cert DN every time (unlikely so successful for a phisher then) or rely on things orthogonal to EV certs like pinning.",hot_take,prelabeled
+"Someone so terrified of having their beliefs challenged that they choose to have none.
+They'll be the ones saying that ""both sides are equally bad"" and think it gives them a moral high ground.
+GP specifically mentioned ""European radical NATO centrists"".  They likely think that it's up to Zelensky to stop the war and legitimately can't understand why you don't try to appease people like Putin.",hot_take,prelabeled
+"Yeah, this really blew me away. I took a graduate computational complexity course and the original prof had to drop out due to health reasons. We got another professor from a completely different field who was basically as green in the field as we were, but with far better research chops. It turned the course into kind of a long-running lab where we just kind of did whatever we wanted. We spent a lot of time just philosophizing (mostly uselessly) about the ETH. I am very chuffed to see this result.",anecdote,prelabeled
+"If you are confused, that is how this company was always been, remember GPT 4, then they did some weird versioning.
+I personally like Terra, it kind of does what I would ask Sol or Astra, but dont have to count tokens as much. 
+And Luna has been amazing tbh, it takes designs from prototype and in record time is implementing it, so that was a huge win.
+But yeah, they always had confusing way of naming products and if you are not following news, you will be confused about what it is.",anecdote,prelabeled
+"Disrupting someone's federally protected right to assemble and worship is a civil rights issue, just like forcing people to do that would be. If you stop and think about this a bit it's really obvious how ""disrupt what's happening in a house of worship I don't like"" would play out if it was allowed.
+In fact there's history of black churches, synagogues, mosques and Sikh temples have been attacked, bombed, disrupted, and otherwise interfered with. You don't have the right to disrupt a girl's baseball team practice on a campus either. The Klan can't march through your living room.
+This isn't hard to understand.",analysis,prelabeled
+Also lasted longer than Anton Yelchin who played Chekov in the reboot movies and who was unfortunately crushed by his own Jeep at only 27 ten years ago,analysis,prelabeled
+I love it.  I can grab either end of the title bar just fine.  I don't need to waste the entire middle.  And if I have multiple windows I'm sacrificing more like 3 lines and it does start to matter.,hot_take,prelabeled
+"> You don't really have to empathize all that much. Can't you imagine anything you wouldn't like built near your home?
+A data center or sewage treatment plant (but I repeat myself)
+> Then someone builds a couple of 20 story apartment blocks, just south of you. The sun is blocked, traffic increases. The neighborhood isn't quiet anymore.
+Okay? Why am I entitled to dictate who builds what near my home? Because I bought a 0.25 acre plot there?
+Maybe the 20 story apartment block will contain a new friend. Maybe it'll bring a bunch more kids to play with the neighborhood kids, who btw aren't plants and don't require constant sunlight. Maybe the block will come with a pool I could use for a reasonable fee, or basketball courts for the kids. Maybe that block going up will increase the overall local population enough so we get better restaurants in the area, and it'll almost certainly increase property tax revenues to local schools.
+Like I dunno if you find this situation absolutely intolerable, you could always just... move?",hot_take,prelabeled
+"The one sane comment in this thread.
+> Adding autogenerated summaries is one thing, but inserting comments in a real person's name that they never made, when you have no knowledge of what became of that person, who may even now be dead, is beyond the pale. You're rewriting history.
+> History matters, ... It can both humble and enlighten us. But only if it's true.
+Reminds me of George Orwell's writings. Specifically Notes on Nationalism - https://en.wikipedia.org/wiki/Notes_on_Nationalism Here ""Nationalism"" is to be interpreted as more akin to ""Tribalism"" i.e. defending one's group at all costs and against all evidence/facts/truth as needed.
+All nationalists have the power of not seeing resemblances between similar sets of facts. ... Actions are held to be good or bad, not on their own merits, but according to who does them, and there is almost no kind of outrage – torture, the use of hostages, forced labour, mass deportations, imprisonment without trial, forgery, assassination, the bombing of civilians – which does not change its moral colour when it is committed by ‘our’ side.",analysis,prelabeled
