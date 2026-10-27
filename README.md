@@ -216,10 +216,11 @@ its F1 a lot, and it will vary between seeds.
   definitions.
 - *What came back:* A label for every post after my first 24, most of them
   hot_take or analysis.
-- *What I changed:* Claude flagged four wrong labels and Claude Code corrected them in labels.csv. For example,
-  the "RIP Walter" post came back as analysis because it had a link, and I
-  changed it to anecdote. The morphs post ("Here is one tiny game that Claude
-  helped me bring back to life") also became anecdote.
+- - *What I changed:* I found four wrong labels, and Claude Code corrected them
+  in labels.csv. For example, the "RIP Walter" post came back as analysis
+  because it had a link, and Claude Code changed it to anecdote. The morphs
+  post ("Here is one tiny game that Claude helped me bring back to life")
+  also became anecdote.
 
 **Moment 2**
 
