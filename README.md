@@ -39,10 +39,13 @@
 
 ## What This Does
 
-TakeMeter sorts public posts from r/nba into three labels (analysis,
-hot_take, reaction) so a reader can tell argued posts from unsupported claims
-and from gut reactions. I labelled about 150 posts by hand and trained a
-small model on them.
+TakeMeter sorts general Hacker News comments (mostly tech, AI, science and
+politics discussion) into three labels (analysis, hot_take, reaction) so a
+reader can tell argued posts from unsupported claims and from gut reactions.
+I labelled about 150 posts by hand and trained a small model on them. The
+comments were collected with the public HN Algolia API using
+collect_posts.py. Search terms like 'nba' and 'basketball' only matched
+incidental words, so most comments are not about sports.
 
 
 ---
@@ -76,10 +79,9 @@ as a stat, a date or a quote.
 **Example 2:**
 >
 
-### `reaction`
+### `anecdote`
 
-**Definition:** An immediate feeling about something that just happened,
-with no argument.
+**Definition:** Shares a personal experience or story, with no argument.
 
 **Example 1:**
 >
